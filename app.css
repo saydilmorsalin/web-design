@@ -1,0 +1,79 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', serif;
+}
+
+body {
+  width: 1366px;
+  height: 768px;
+  border: 1px solid black;
+}
+
+body .text {
+  display: inline-block;
+  line-height: -5px;
+  margin: 225px 0 0 174px;
+}
+
+body .text p {
+  margin: 0;
+  padding: 0;
+}
+
+body .text p:nth-child(1) {
+  font-size: 50px;
+  border-bottom: 2px solid #E22424;
+}
+
+body .text p:nth-child(2) {
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+body .text p:nth-child(3) {
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+body .text p:nth-child(4) {
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.red_box {
+  display: inline-block;
+  position: absolute;
+  left: 1014px;
+  width: 352px;
+  height: 768px;
+  background-color: #E22424;
+  opacity: 0.86;
+}
+
+.im {
+  display: inline-block;
+  width: 375px;
+  height: 564px;
+  position: absolute;
+  left: 827px;
+  top: 151px;
+  z-index: 1;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 677px;
+  left: 28px;
+}
+
+.icon1 {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 677px;
+  left: 105px;
+}
+/*# sourceMappingURL=app.css.map */
