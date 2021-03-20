@@ -1,0 +1,75 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+}
+$primary-color:#E22424;
+body{
+ width: 1366px;
+ height: 768px;
+ border: 1px solid black;
+ .text{
+    display: inline-block;
+    
+    line-height: -5px;
+    margin: 225px 0 0 174px;
+    p{
+      margin: 0;
+      padding: 0;
+    }
+    p:nth-child(1){
+        font-size: 50px;
+        // text-decoration: underline solid $primary-color;
+        // text-decoration-thickness:3px;
+        border-bottom: 2px solid $primary-color;
+        
+    }
+    p:nth-child(2){
+        font-size: 40px;
+        opacity: 0.8;
+    }
+    p:nth-child(3){
+        font-size: 40px;
+        opacity: 0.8;
+    }
+    p:nth-child(4){
+        font-size: 30px;
+        opacity: 0.7;
+    }
+ }
+
+}
+.red_box{
+    display: inline-block;
+    position: absolute;;
+    left: 1014px;
+    width: 352px;
+    height: 768px;
+    background-color: $primary-color;
+    opacity: 0.86;
+}    
+.im{
+    display: inline-block;
+    width: 375px;
+    height: 564px;
+    position: absolute;
+    left:827px;
+    top:151px;
+    z-index: 1;   
+    
+}
+.icon{
+    height:70px;
+    width:70px;
+    position: absolute;
+    top:677px;
+    left: 28px;
+    }
+    
+.icon1{
+    height:70px;
+    width:70px;
+    position: absolute;
+    top:677px;
+    left: 105px;
+}
